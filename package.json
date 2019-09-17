@@ -1,6 +1,6 @@
 {
   "name": "syslog-constants",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Syslog constants as a package",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,13 @@
     "eslint": "^6.4.0",
     "mocha": "^6.2.0",
     "nyc": "^14.1.1"
-  }
+  },
+  "keywords": [
+    "syslog",
+    "constants",
+    "facility",
+    "severity",
+    "flag",
+    "level"
+  ]
 }
