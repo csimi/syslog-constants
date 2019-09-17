@@ -1,4 +1,5 @@
 [![npm version](https://img.shields.io/npm/v/syslog-constants.svg)](https://www.npmjs.com/package/syslog-constants)
+[![build status](https://github.com/csimi/syslog-constants/workflows/Node%20CI/badge.svg)](https://github.com/csimi/syslog-constants/actions)
 
 # About
 
