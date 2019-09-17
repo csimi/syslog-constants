@@ -1,0 +1,31 @@
+{
+  "name": "syslog-constants",
+  "version": "1.0.0",
+  "description": "Syslog constants as a package",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "cross-env NODE_ENV=test nyc mocha",
+    "posttest": "npm run coverage",
+    "coverage": "nyc report --reporter=lcov",
+    "lint": "eslint -v && eslint ."
+  },
+  "author": "David Csirmaz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:csimi/syslog-constants.git"
+  },
+  "files": [
+    "index.js",
+    "lib/**"
+  ],
+  "devDependencies": {
+    "@csimi/eslint-config": "^2.0.0",
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.1",
+    "eslint": "^6.4.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
+  }
+}
