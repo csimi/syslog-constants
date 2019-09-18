@@ -9,8 +9,5 @@
 	},
 	"extends": [
 		"@csimi/eslint-config"
-	],
-	"rules": {
-		"no-bitwise": "off"
-	}
+	]
 }
