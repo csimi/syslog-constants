@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "Syslog constants as a package",
   "main": "index.js",
+  "engines": {
+    "node": ">=8.0"
+  },
   "scripts": {
     "pretest": "npm run lint",
     "test": "cross-env NODE_ENV=test nyc mocha",
