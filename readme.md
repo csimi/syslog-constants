@@ -70,9 +70,9 @@ Properties are defined in four possible ways (if applicable):
 
 ## Flag (constants.flag)
 
-* `LOG_PID`
-* `LOG_CONS`
-* `LOG_ODELAY`
-* `LOG_NDELAY`
-* `LOG_NOWAIT`
-* `LOG_PERROR`
+* `LOG_PID` = `pid`
+* `LOG_CONS` = `cons`
+* `LOG_ODELAY` = `odelay`
+* `LOG_NDELAY` = `ndelay`
+* `LOG_NOWAIT` = `nowait`
+* `LOG_PERROR` = `perror`
