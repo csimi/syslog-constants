@@ -1,6 +1,6 @@
 {
   "name": "syslog-constants",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Syslog constants as a package",
   "main": "index.js",
   "engines": {
