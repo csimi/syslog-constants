@@ -24,10 +24,10 @@
     "lib/**"
   ],
   "devDependencies": {
-    "@csimi/eslint-config": "^2.0.0",
+    "@csimi/eslint-config": "^3.0.0",
     "chai": "^4.2.0",
     "cross-env": "^5.2.1",
-    "eslint": "^6.4.0",
+    "eslint": "^7.32.0",
     "mocha": "^6.2.0",
     "nyc": "^14.1.1"
   },
